@@ -1,0 +1,76 @@
+{
+  "Version": 3,
+  "Type": 0,
+  "FileReferences": {
+    "Moc": "魔法少女.moc3",
+    "Textures": [
+      "魔法少女.8192/texture_00.png",
+      "魔法少女.8192/texture_01.png",
+      "魔法少女.8192/texture_02.png",
+      "魔法少女.8192/texture_03.png",
+      "魔法少女.8192/texture_04.png",
+      "魔法少女.8192/texture_05.png"
+    ],
+    "Physics": "魔法少女.physics3.json",
+    "PhysicsV2": {
+      "File": "魔法少女.physics3.json"
+    }
+  },
+  "Controllers": {
+    "ParamHit": {},
+    "ParamLoop": {},
+    "KeyTrigger": {},
+    "ParamTrigger": {},
+    "AreaTrigger": {},
+    "HandTrigger": {},
+    "EyeBlink": {
+      "MinInterval": 500,
+      "MaxInterval": 6000,
+      "Enabled": true
+    },
+    "LipSync": {
+      "Gain": 5.0
+    },
+    "MouseTracking": {
+      "SmoothTime": 0.15,
+      "Enabled": true
+    },
+    "AutoBreath": {
+      "Enabled": true
+    },
+    "ExtraMotion": {
+      "Enabled": true
+    },
+    "Accelerometer": {
+      "Enabled": true
+    },
+    "Microphone": {},
+    "Transform": {},
+    "FaceTracking": {
+      "Enabled": true
+    },
+    "HandTracking": {},
+    "ParamValue": {
+      "Items": [
+        {
+          "Text": "watermark",
+          "Ids": [
+            "ParamEyeHeart3"
+          ],
+          "Value": 1.0
+        }
+      ],
+      "Enabled": true
+    },
+    "PartOpacity": {},
+    "ArtmeshOpacity": {},
+    "ArtmeshColor": {},
+    "ArtmeshCulling": {
+      "DefaultMode": 0
+    },
+    "IntimacySystem": {}
+  },
+  "Options": {
+    "TexType": 0
+  }
+}
